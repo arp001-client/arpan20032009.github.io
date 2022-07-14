@@ -1,0 +1,7 @@
+image : httpd
+pages :
+    script : 
+        - service httpd start
+    artifacts:
+        paths :
+            - public   
